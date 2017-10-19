@@ -1,0 +1,101 @@
+body
+{
+	background: #2e2e2e;
+	margin: 0;
+}
+
+i
+{
+	color: white;
+	margin-top: 0;
+	position: fixed;
+	-webkit-animation: fa 3s ease;
+}
+
+@keyframes fa 
+{
+	0%{left: 100%; opacity: 0;}
+	100%{left: 0%; opacity: 1;}
+}
+
+.a
+{
+	background: #2E2E2E;
+	width: 75px;
+	height: 65px;
+	transition: 1s ease;
+	font-family: verdana;
+	color: #2E2E2E;
+	font-weight: bold;
+	text-align: center;
+	line-height: 600px;
+	overflow: hidden;
+}
+
+.a:hover
+{
+	width: 250px;
+	height: 200px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
+
+a
+{
+	color: black;
+	font-family: verdana;
+}
+
+.b
+{
+	width: 100%;
+	height: 500px;
+	color: white;
+	font-family: verdana;
+	font-size: 30px;
+	position: relative;
+	margin-top: 0;
+	font-weight: bold;
+	text-align: center;
+	line-height: 70px;
+	background: #171717;
+	-webkit-animation: abc 3s ease;
+}
+
+@keyframes abc
+{
+	0%{right: 100%; opacity: 0;}
+	100%{right: 0%; opacity: 1;}
+}
+
+img
+{
+	width: 50%;
+	height: 500px;
+	position: relative;
+	margin-top: 0;
+	-webkit-animation: bb 4s ease;
+}
+
+@keyframes bb
+{
+	0%{left: 100%; opacity: 0;}
+	100%{left: 0%; opacity: 1;}
+}
+
+.c
+{
+	width: 50%;
+	height: 500px;
+	position: relative;
+	margin-top: 0;
+    -webkit-animation: b 4s ease;
+}
+
+@keyframes b
+{
+	0%{right: 100%; opacity: 0;}
+	100%{right: 0%; opacity: 1;}
+}
+

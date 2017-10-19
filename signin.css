@@ -1,0 +1,48 @@
+body
+{
+	background: #2e2e2e;
+	margin: 0;
+}
+
+i
+{
+	color: white;
+	margin-top: 0;
+	position: fixed;
+	-webkit-animation: fa 3s ease;
+}
+
+@keyframes fa 
+{
+	0%{left: 100%; opacity: 0;}
+	100%{left: 0%; opacity: 1;}
+}
+
+.a
+{
+	background: #2E2E2E;
+	width: 75px;
+	height: 65px;
+	transition: 1s ease;
+	font-family: verdana;
+	color: #2E2E2E;
+	font-weight: bold;
+	text-align: center;
+	line-height: 600px;
+	overflow: hidden;
+}
+
+.a:hover
+{
+	width: 250px;
+	height: 200px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
+
+a
+{
+	color: black;
+	font-family: verdana;
+}
