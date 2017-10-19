@@ -1,0 +1,86 @@
+body
+{
+	background: #2E2E2E;
+	margin: 0;
+}
+
+.b
+{
+	width: 100%;
+	height: 600px;
+	padding-top: 5px;
+	margin-top: 0;
+	position: relative;
+	-webkit-animation: dps 2s ease ;
+}
+
+@keyframes dps
+{
+	0% {right: 100%; opacity: 0;}
+	100%{right: 0%; opacity: 1;}
+}
+
+.c
+{
+	background: #FF955C;
+    font-size: 60px;
+    font-family: algerian;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    border: solid;
+    height: 600px;
+    border-width: 5px;
+    -webkit-animation: dpsr 4s ease;
+}
+
+@keyframes dpsr
+{
+	0% {left: 100%; opacity: 0;}
+	100% {left: 0%; opacity: 1;}
+}
+
+a
+{
+	color: black;
+	font-family: verdana;
+}
+
+i
+{
+	color: white;
+	margin-top: 0;
+	position: fixed;
+	-webkit-animation: fa 3s ease;
+}
+
+@keyframes fa 
+{
+	0%{left: 100%; opacity: 0;}
+	100%{left: 0%; opacity: 1;}
+}
+
+.a
+{
+	background: #2E2E2E;
+	width: 75px;
+	height: 65px;
+	transition: 1s ease;
+	font-family: verdana;
+	color: #2E2E2E;
+	font-weight: bold;
+	text-align: center;
+	line-height: 600px;
+	overflow: hidden;
+}
+
+.a:hover
+{
+	width: 250px;
+	height: 200px;
+	background: grey;
+	text-align: center;
+	line-height: 50px;
+}
